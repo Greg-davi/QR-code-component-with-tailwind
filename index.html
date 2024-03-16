@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'clifford': '#da373d', 
+            'White': "hsl(0, 0%, 100%)", 
+            'Lightgray': "hsl(212, 45%, 89%)", 
+            'Grayishblue': "hsl(220, 15%, 55%)", 
+            'Darkblue': "hsl(218, 44%, 22%)",
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+  </style>
+</head>
+<body class="flex flex-col items-center justify-items-center bg-Lightgray h">
+
+  <div class="w-[20rem] w-md-[100%]  p-8 bg-white rounded-2xl m-12 text-center flex flex-col items-center justify-items-center"> 
+    <img src="./images/image-qr-code.png" alt="qr code" class="rounded text-Grayishblue">
+    <p class="font-bold w-3/4 m-4 text-Darkblue">Improve your front-end skills by building projects</p>
+    <p class="text-Grayishblue">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Greg-davi">Neena</a>.
+  </div>
+</body>
+</html>
